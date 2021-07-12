@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+  <div class="menu">
+      <div class="btn"><i class="fa fa-home" aria-hidden="true"></i>
+Home</div>
+      <div class="btn"><i class="fa fa-desktop" aria-hidden="true"></i>
+Website</div>
+      <div class="btn"><i class="fa fa-line-chart" aria-hidden="true"></i>
+Marketing</div>
+      <div class="btn"><i class="fa fa-mobile" aria-hidden="true"></i>
+Mobile App</div>
+      <div class="btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+Contact</div>
+  </div>
+  <div class="imags">
+      <h1>Images Gallary "ISTANBUL"</h1>
+      <div class="gallery">
+          <a href="images/1.jpg" data-lightbox="mygallery"> <img src="images/11.jpg"></a>
+          <a href="images/2.jpg" data-lightbox="mygallery"><img src="images/22.jpg"></a>
+          <a href="images/3.jpg" data-lightbox="mygallery"><img src="images/33.jpg"></a>
+          <a href="images/4.jpg" data-lightbox="mygallery"><img src="images/44.jpg"></a>
+          <a href="images/5.jpg" data-lightbox="mygallery"><img src="images/55.jpg"></a>
+          <a href="images/6.jpg" data-lightbox="mygallery"><img src="images/66.jpg"></a>
+          <a href="images/7.jpg" data-lightbox="mygallery"><img src="images/77.jpg"></a>
+          <a href="images/8.jpg" data-lightbox="mygallery"><img src="images/88.jpg"></a>
+          <a href="images/9.jpg" data-lightbox="mygallery"><img src="images/99.jpg"></a>
+          <a href="images/10.jpg" data-lightbox="mygallery"><img src="images/1010.jpg"></a>
+
+      </div>
+      
+  </div>
+   <div class="contact-title">
+      <h1>Say Hello</h1>
+       <h2>We are alwaye ready to serve you!</h2>
+   </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="ausgabe.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+            <br>
+            <select name="sprache" class="form-control">
+                <option>Deutsch</option>
+                <option>Englisch</option>
+                <option>Arabisch</option>
+            </select>
+            <br>
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
+    
+</body>
+</html>
